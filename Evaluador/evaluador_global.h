@@ -1,0 +1,12 @@
+#ifndef EVALUADOR_GLOBAL_H
+#define EVALUADOR_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(EVALUADOR_LIBRARY)
+#  define EVALUADORSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define EVALUADORSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // EVALUADOR_GLOBAL_H
