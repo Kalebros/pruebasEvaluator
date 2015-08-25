@@ -25,7 +25,38 @@
      <widget class="QLineEdit" name="lineEdit"/>
     </item>
     <item>
-     <widget class="QComboBox" name="comboBox"/>
+     <widget class="QComboBox" name="comboBox">
+      <item>
+       <property name="text">
+        <string>Item A</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ItemB</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Nuevo Item C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Otro item</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>E-Item</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>F** item</string>
+       </property>
+      </item>
+     </widget>
     </item>
     <item>
      <widget class="QCheckBox" name="checkBox">

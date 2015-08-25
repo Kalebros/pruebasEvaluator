@@ -3,6 +3,8 @@
 
 #include <QMainWindow>
 
+#include <Evaluador/evaluador.h>
+
 namespace Ui {
 class MainWindow;
 }
@@ -17,6 +19,8 @@ public:
 
 private:
     Ui::MainWindow *ui;
+
+    Evaluador *evaluador;
 };
 
 #endif // MAINWINDOW_H
